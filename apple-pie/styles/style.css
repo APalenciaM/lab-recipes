@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html,
+body {
+    margin: 0;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    
+}
+
+body section {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 3vw; 
+    padding-right: 3vw;
+}
+
+.endOfSection{
+    border-bottom: 1px solid black;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: "Atari";
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h6 {
+    font-size: 1em;
+    margin-bottom: 2vh;
+}
+
+header{
+    height: 40vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    margin-bottom: 5vh;
+    
+}
+
+
+.imageDiv {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 2vh 0 2vh 0;
+}
+
+#recipeInfoImage {
+    width: 15vw;
+    height: 5vh;
+}
+
+#ingredientsList {
+    list-style: none;
+    margin-left: 1vw;
+}
+
+#ingredientsList li::before {
+    content: "- ";
+}
+
+#cokkingInfoImage {
+    width: 15vw;
+    height: 7vh;
+}
+
+
+
+
+
